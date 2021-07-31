@@ -1,0 +1,64 @@
+@import url('./field.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+:root {}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.player {
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    font-size: 2rem;
+}
+
+.game {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.new-game {
+    margin-top: 50px;
+
+    font-size: 2rem;
+    padding: 5px 15px;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.new-game:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
