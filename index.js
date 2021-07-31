@@ -75,7 +75,6 @@ const playerWins = () => {
             }
 
             fields.forEach(i => i.classList.add('active'));
-            console.log(counter)
         }
     });
 }
